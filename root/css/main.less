@@ -156,7 +156,7 @@ ol.publications li p.title {
     
     @media only screen and (min-width: @min_two_column_width) {
         width: auto;
-        margin-left: @horizontal_margin;
+        margin-left: @horizontal_margin + @side_column_width + @gutter;
     }
     @media only screen and (max-width: @max_one_column_width) {
         width: auto;
@@ -254,18 +254,18 @@ body {
     font-size: @body_font_size;
     line-height: @baseline_grid;
 
-    max-width: @horizontal_margin + @max_full_column_width + @horizontal_margin;
+    max-width: @horizontal_margin + @side_column_width + @gutter + @max_full_column_width + @horizontal_margin;
     margin: auto;
 }
 
 /* HEADER */
 /* header elements that shift to the right */
 .header_shift_right {
-    margin-left: @side_column_width / 2 + @gutter / 2;
+//    margin-left: @side_column_width / 2 + @gutter / 2;
 
     @media only screen and (min-width: @min_two_column_width) {
         margin-left: 0;
-    }    
+    }
 }
 header {
     .side_column;
@@ -283,15 +283,14 @@ header {
         }
     }
     @media only screen and (min-width: @min_two_column_width) {
-        margin-top: 0;
+        margin-top: @baseline_grid * 7/5;
     }
 }
 h1 {
     .header_shift_right;
     font-weight: 700;
-    font-size: @header_font_size;
+    font-size: @header_font_size * 3/4;
     line-height: @header_font_size;
-    white-space: nowrap;
     margin-bottom: @baseline_grid / 6;
     padding-top: @baseline_grid * 2/5;
 
@@ -304,6 +303,8 @@ h1 {
 header nav {
     .header_shift_right;
     z-index: 2;
+    margin-bottom: @baseline_grid * 2/3;
+
     ul {
         font-size: @nav_font_size;
     
