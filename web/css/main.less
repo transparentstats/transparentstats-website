@@ -76,10 +76,13 @@
     font-weight: 500;
 }
 .body_font_regular_all_small_caps {
-    font-family: "ff-meta-serif-sc-web-pro", Georgia, serif;
-    text-transform: lowercase;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
     font-weight: 500;
     font-style: normal;
+    font-variant-caps: all-small-caps;
+    -moz-font-feature-settings: "c2sc", "smcp";
+    -webkit-font-feature-settings: "c2sc", "smcp";
+    font-feature-settings: "c2sc", "smcp";
 }
 .heading_font {
     font-family: "source-sans-pro", sans-serif;
