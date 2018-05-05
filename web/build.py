@@ -13,7 +13,7 @@ call(("lessc", "--yui-compress", "css/main.less", "css/main.css"))
 
 #build index.html
 # replace LESS stylesheet with CSS stylesheet
-for basename in ["index","chi2016/index","chi2017/index"]:
+for basename in ["index","chi2016/index","chi2017/index","chi2018/index"]:
     with open(basename + "-less.html", "rU") as in_:
         print "Writing " + basename
         with open(basename + ".html", "wb") as out_:

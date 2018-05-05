@@ -5,9 +5,10 @@
 /* body text (gray) */
 @body_color: #404040;
 /* primary accent (blue): links */
-@accent_color: #217f8a;
-/* secondary accent (brown): visited links */
-@accent_color_2: #217f8a;
+@accent_color: #155996;
+/* @accent_color: #217f8a; */
+/* secondary accent: visited links */
+@accent_color_2: #155996;
 /* tertiary accent (maroon): link hover */
 @accent_color_3: #6D1328;
 /* ornament color: (red) best paper awards, etc */
@@ -274,7 +275,12 @@ header {
     .side_column;
     position: relative;
     margin-top: @baseline_grid * 2/3;
-    
+    background: url("logo@320.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    padding-left: 100px;
+    background-position-y: 15px;
+        
     img {
         float: left;
         max-width: @side_column_width / 2;
@@ -287,6 +293,14 @@ header {
     }
     @media only screen and (min-width: @min_two_column_width) {
         margin-top: @baseline_grid * 7/5;
+        background: url("logo@320.png");
+        background-size: 160px;
+        background-repeat: no-repeat;
+        padding-top: 170px;
+        background-position-y: top;
+        background-position-x: -6px;
+        margin-top: 16px;
+        padding-left: 3px;
     }
 }
 h1 {
