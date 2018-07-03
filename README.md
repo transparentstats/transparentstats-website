@@ -1,8 +1,8 @@
-# Transparent statistics in HCI
+# Transparent statistics in HCI website
 
-This repo contains docs and the website for the transparent statistics in HCI group.
+This repo contains the website for the transparent statistics in HCI group.
 
-- [web/](web/): The root directory of [transparentstatistics.org](http://transparentstatistics.org/).
+- [old-web/](old-web/): The root directory of [transparentstatistics.org](http://transparentstatistics.org/).
   Files in this directory use a hacked-together setup that I (Matt) use for my own website and don't
   expect others to want to deal with. 
   
