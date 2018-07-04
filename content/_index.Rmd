@@ -1,0 +1,13 @@
+---
+title: "Home"
+date: "2018-07-03"
+---
+
+# Transparent Statistics in Human–Computer Interaction
+
+Transparent statistics is a philosophy of statistical reporting whose purpose is scientific advancement rather than persuasion. We are interested in moving the field of <abbr title="Human-Computer Interaction">HCI</abbr> towards clearer and more reliable ways of writing about experiments.
+
+**Join us!** The best way to get involved is to **join our Slack workspace**---email <core@transparentstatistics.org> and we'll send you an invite. We also have a [mailing list](https://groups.google.com/d/forum/transparent-stats-hci) you can sign up for, but the Slack is more active.
+
+**Read our statements and materials from CHI 2016, CHI 2017, and CHI 2018:** We ran a <abbr title="Special Interest Group">SIG</abbr> on transparent statistics at [<abbr>CHI</abbr> 2016](/chi2016), a workshop at [<abbr>CHI</abbr> 2017](/chi2017), and another <abbr>SIG</abbr> at [<abbr>CHI</abbr> 2018](/chi2018).
+

@@ -1,0 +1,42 @@
+baseurl = "http://transparentstatistics.org/"
+languageCode = "en-us"
+title = "Transparent Statistics in HCI"
+theme = "hugo-lithium"
+googleAnalytics = "UA-93322-3"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    blog = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+[[menu.main]]
+    name = "CHI '18"
+    url = "/chi2018"
+[[menu.main]]
+    name = "CHI '17"
+    url = "/chi2017"
+[[menu.main]]
+    name = "CHI '16"
+    url = "/chi2016"
+
+[params]
+    description = "Transparent Statistics in Human-Computer Interaction Working Group"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+

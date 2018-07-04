@@ -1,0 +1,26 @@
+---
+title: "Special Interest Group on Transparent Statistics Guidelines @CHI 2018"
+date: "2018-01-01"
+---
+
+
+_[Chat Wacharamanotham](http://zpac.ch/chat), [Matthew Kay](http://mjskay.com/), [Steve Haroz](http://steveharoz.com/), [Shion Guha](https://www.cs.cornell.edu/~sguha/), and [Pierre Dragicevic](https://www.lri.fr/~dragice/)_
+
+Transparent statistics is a philosophy of statistical reporting whose purpose is scientific advancement rather than persuasion. At our <abbr title="Conference on Human Factors in Computing Systems">CHI</abbr> 2017 workshop, _Moving Transparent Statistics Forward_, we identified that an important first step is to develop detailed guidelines for authors and reviewers in order to help them practice and promote transparent statistics. At this <abbr title="Special Interest Group">SIG</abbr>, we will solicit feedback from the <abbr title="Human–Computer Interaction">HCI</abbr> community on a first working draft of Transparent Statistics Guidelines and engage potential contributors to push the transparent statistics movement forward.
+
+## Links for today
+
+*   [Slack signup](https://tinyurl.com/statslack)
+*   [Signup for Github organization and Google Drive](https://docs.google.com/spreadsheets/d/1MZMgMlv7QJhIcDQFjfqIRUug3Cw-_UshAD2Rno3YDAU/edit#gid=0)
+*   [Effect size Google doc for commenting](https://goo.gl/TG64K2)
+*   [Effect size exemplar](https://transparentstats.github.io/guidelines/effectsize.html#effectsize_exemplar_simple) to be tested with these [datasets](http://steveharoz.com/public/simple_effect_examples/simple_effect_example.html)
+*   [Doodle poll for first meeting](https://doodle.com/poll/487fdb5n75dzxz5s)
+
+
+## Other links (for reference)
+
+*   [The git repository](https://github.com/transparentstats/guidelines)
+*   [The current guidelines](https://transparentstats.github.io/guidelines/)
+*   [Slide deck from this meeting](https://docs.google.com/presentation/d/1tvJPRlphPnD01a1C9WUC4k3RTe1ESIwaN8q34n_ss4M/edit#slide=id.g384c68f973_0_1)
+*   [Google Drive with outcome from previous events](https://drive.google.com/drive/u/0/folders/0B5p5yTkrmrTJcEZPcHpSbzZpWWc)
+

@@ -1,0 +1,18 @@
+---
+title: Launch of the transparent statistics in HCI blog
+author: Matthew Kay
+date: '2018-07-03'
+slug: transparent-statistics-blog-launch
+categories: []
+tags: []
+---
+
+This post marks the transition of the Transparent Statistics in HCI website to [blogdown](https://bookdown.org/yihui/blogdown/). This is an exciting transition for several reasons:
+
+1. The website is no longer backed by some hacked-together scripts I made.
+2. The website can be contributed to by others via [Github](https://github.com/transparentstats/transparentstats-website).
+3. **(Most excitingly)**, we will be able to begin blogging about transparent statistics in HCI!
+
+To that last point, we will be soliciting posts from members of the community on topics related to transparent statistical communication in human-computer interaction. We also welcome volunteers: if there is something you would like to write about, reach out to us at <core@transparentstatistics.org>! The inaugural post on the blog will be by the one and only [Pierre Dragicevic](http://dragice.fr/).
+
+You can also follow us on Twitter <a href="https://twitter.com/trans_stats_hci">@trans_stats_hci</a> and using [RSS](/blog/index.xml).
