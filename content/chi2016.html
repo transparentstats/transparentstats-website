@@ -1,0 +1,130 @@
+---
+title: "Special Interest Group on Transparent Statistics in HCI @CHI 2016"
+date: "2016-01-01"
+---
+
+
+
+<p><em><a href="http://mjskay.com/">Matthew Kay</a>, <a href="http://steveharoz.com/">Steve Haroz</a>, <a href="https://www.cs.cornell.edu/~sguha/">Shion Guha</a>, and <a href="https://www.lri.fr/~dragice/">Pierre Dragicevic</a></em></p>
+<p>Transparent statistics is a philosophy of statistical reporting whose purpose is scientific advancement rather than persuasion. We ran a <abbr title="Special Interest Group">SIG</abbr> at <abbr title="Conference on Human Factors in Computing Systems">CHI</abbr> 2016 to discuss problems and limitations in statistical practices in <abbr title="Human–Computer Interaction">HCI</abbr> and options for moving the field towards clearer and more reliable ways of writing about experiments. Read our abstract below for more information (also available <a href="chi-2016-sig.pdf">as a <abbr>PDF</abbr></a>).</p>
+<p><strong>Thanks for making our SIG a success!</strong> The turnout and enthusiasm was overwhelming! <a href="https://drive.google.com/folderview?id=0B8SF-zy_7oe9Rk84R1BkeFFKQ2M&amp;usp=sharing">Materials from the SIG are available here</a>.</p>
+<p><strong>Join our mailing list!</strong> We have started a <a href="https://groups.google.com/d/forum/transparent-stats-hci">mailing list</a> to continue the conversation started at the <abbr>SIG</abbr>, with the goal of quickly developing some concrete recommendations to move the field forward.</p>
+<p><strong>Check out our workshop for CHI 2017!</strong> We are running a <a href="/chi2017">workshop at <abbr>CHI</abbr> 2017</a> to develop guidelines and resources.</p>
+<div id="contents" class="section level2">
+<h2>Contents</h2>
+<ol style="list-style-type: decimal">
+<li><a href="#motivation">Motivation</a></li>
+<li><a href="#what-is-transparent-statistics">What is Transparent Statistics?</a></li>
+<li><a href="#how-to-move-towards-transparent-statistics">How to Move Towards Transparent Statistics?</a>
+<ol style="list-style-type: decimal">
+<li><a href="#reporting-transparent-statistics">Reporting Transparent Statistics</a></li>
+<li><a href="#emphasizing-practical-significance-over-testing">Emphasizing Practical Significance over Testing</a></li>
+<li><a href="#training-and-education">Training and Education</a></li>
+<li><a href="#open-data-and-replications">Open Data and Replications</a></li>
+<li><a href="#transparent-conclusions">Transparent Conclusions</a></li>
+<li><a href="#hci-can-help-statistics">HCI Can Help Statistics!</a></li>
+</ol></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+</div>
+<div id="motivation" class="section level2">
+<h2>Motivation</h2>
+<p>Empirical studies in <abbr>HCI</abbr> typically consist of solitary experiments analyzed through null hypothesis significance testing (<abbr>NHST</abbr>). However, this traditional approach is under growing criticism at <abbr>CHI</abbr> [<a href="#kaptein2012rethinking">11</a>,<a href="#cairns2007hci">3</a>,<a href="#dragicevic2016Fair">7</a>,<a href="#kay2016bayes">12</a>] and has been strongly criticized for more than 50 years in other fields [<a href="#kline2004beyond">13</a>,<a href="#cumming2013new">5</a>,<a href="#open2015estimating">4</a>].</p>
+<p>Problems with current practices include [<a href="#dragicevic2016Fair">7</a>,<a href="#wilson2012replichi">14</a>,<a href="#kaptein2012rethinking">11</a>,<a href="#kay2016bayes">12</a>]:</p>
+<ul>
+<li>The use of statistical constructs (e.g, <em>p</em>-values) that most researchers have trouble grasping intuitively</li>
+<li>Overemphasis on conveying evidence and numbers rather than useful information and generalizable conclusions, leading to tedious <em>p</em>-cluttered reports</li>
+<li>Dichotomous thinking, i.e., thinking of hypotheses as either true or false, and of effects and evidence as either existing or not existing</li>
+<li>Undisclosed flexibility in data analyses, yielding cherry-picked results or <em>p</em>-hacking (even if unintentional)</li>
+<li>Simplistic criteria for paper acceptance (e.g., looking at whether results are “significant”) leading to positive results bias, and thus an incomplete and distorted literature</li>
+<li>A lack of focus on research as a cumulative and collective enterprise, including a lack of incentives for sharing experimental data and study materials, a lack of replication, and virtually no meta-analysis</li>
+</ul>
+<p>Problems with statistics in <abbr>HCI</abbr> extend beyond mere procedural mistakes committed by researchers who might need more statistical training. We believe these are deeper issues worthy of a conversation—here, a <abbr>SIG</abbr>—about how to reform the prevalent methods in the community.</p>
+</div>
+<div id="what-is-transparent-statistics" class="section level2">
+<h2>What is Transparent Statistics?</h2>
+<p>Our use of the term <em>transparent statistics</em> is not meant to imply that statistical reports at <abbr>CHI</abbr> are necessarily opaque. Instead, it aims to emphasize transparency in reporting. More specifically, we propose to refer to transparent statistics as <em>a philosophy of statistical reporting whose purpose is to advance scientific knowledge rather than to persuade</em>. Although transparent statistics recognizes that rhetoric plays a major role in scientific writing [<a href="#abelson2012statistics">1</a>], it dictates that when persuasion is at odds with the dissemination of clear and complete knowledge, the latter should prevail. For example, when empirical data provides incomplete or mixed evidence, a transparent investigator should refrain from drawing definitive conclusions and instead communicate all relevant information <em>“in intelligible form, in recognition of the right of other free minds to utilize them in making their own decisions”</em> [<a href="#fisher1955statistical">8</a>]. Transparent statistics puts clarity before messiness, and messiness before false clarity—study results are often disappointingly complex, but in transparent statistics the quest for scientific truth prevails over <em>“aesthetic criteria of novelty, narrative facility, and perfection”</em> [<a href="#giner2012science">9</a>].</p>
+<p>Acknowledging the messiness of results is often at odds with our desire to make strong, definitive statements (<em>“technique A outperforms technique B”</em>). But conveying uncertainty more faithfully represents our results and even makes them more useful: practitioners do not want to know if <em>p</em> is less than .05; they want to know by how much does technique A improve over technique B (plus-or-minus some error) so that they can perform a cost-benefit analysis and decide whether to adopt it. Besides advancing clarity within our field, transparent statistics can help address another existential crisis for <abbr>HCI</abbr>—impact on real-world systems—by expressing our results in statistical language that is amenable to assessing practical significance.</p>
+</div>
+<div id="how-to-move-towards-transparent-statistics" class="section level2">
+<h2>How to Move Towards Transparent Statistics?</h2>
+<p>The purpose of this <abbr>SIG</abbr> meeting is to discuss how we can move toward more transparent statistical practice in <abbr>HCI</abbr> and also what <abbr>HCI</abbr> can contribute to broader statistical reform. We offer several discussion points, ideas, and opinions to start that conversation.</p>
+<div id="reporting-transparent-statistics" class="section level3">
+<h3>Reporting Transparent Statistics</h3>
+<p>Transparent statistics are about both <em>what</em> we report and <em>how</em> we report it. While methodologists have been discussing <em>what</em> to report to maximize transparency (e.g, communicating simple/standardized effect sizes with frequentist/Bayesian interval estimates, clearly distinguishing between planned and unplanned analyses), <abbr>HCI</abbr> can advance guidelines for <em>how</em> to report transparent statistics in a user-friendly manner. For instance, clear, straightforward graphical communication of effects can be written into modern reporting guidelines [<a href="#dragicevic2016Fair">7</a>]. These approaches could become both the standard within <abbr>HCI</abbr> and the standard we aspire to create through new statistical tools—what if the output of any procedure in a statistical package was an annotated, self-explanatory visualization, rather than a cryptic table? This approach may make some uncomfortable, as guidelines already exist that insist upon many orthodox practices that can be harmful to transparent statistical communication. These older standards lead to ubiquitous impenetrable results sections that are peppered with numerical statistical results. We plan to discuss how authors can educate reviewers when writing results that do not follow old norms. This includes amassing a set of citations that lend credence to (currently) unorthodox approaches; e.g., essays by advocates of estimation [<a href="#cumming2013new">5</a>,<a href="#dragicevic2016Fair">7</a>] and of Bayesian methods [<a href="#kay2016bayes">12</a>].</p>
+<p>Having more papers in the field using these methods can also help. Done well, these methods could speak for themselves. Clearer communication (with relevant citations) can be enough to convince reviewers simply through the deeper understanding they gain from the work. However, some rethinking is still necessary: a wide confidence interval that just overlaps 0 in a small-n study is more honest than a <em>p</em> value just above .05 (and better informs future meta- or Bayesian analysis), but might feel like a lackluster result to a reviewer used to thinking in binary rejection criteria.</p>
+</div>
+<div id="emphasizing-practical-significance-over-testing" class="section level3">
+<h3>Emphasizing Practical Significance over Testing</h3>
+<p>In contrast to a focus on binary testing (is A better than B?), transparent statistics emphasize effect size (how much better?) and uncertainty (what are the upper and lower bounds on the difference?). These inform us on practical significance: is the difference large enough, and are we certain enough to act on it? Given an estimated difference between two conditions, a practitioner could apply a cost function to decide whether the increase in performance is worth the cost of switching to a new interface or technique. Cost/benefit analysis, not statistical significance, is the language of industry, and therefore one way for results from <abbr>HCI</abbr> to make it out of the lab and into real-world systems.</p>
+</div>
+<div id="training-and-education" class="section level3">
+<h3>Training and Education</h3>
+<p>Training and education is an important part of this debate. Many <abbr>HCI</abbr> researchers learn statistics in one of two ways: through an applied statistics course (for non-statisticians) taught by statisticians, or through a course (or part of a course) taught by an <abbr>HCI</abbr> or computer science professor in their home departments. The latter approach can perpetuate old norms in the field which, as we have argued, need to be reexamined and reformed. How can we better integrate transparent statistics education into <abbr>HCI</abbr> curricula (as is becoming more common in other fields)?</p>
+</div>
+<div id="open-data-and-replications" class="section level3">
+<h3>Open Data and Replications</h3>
+<p>While clear communication of statistical analyses is critical, publishing the underlying data allows those analyses to be verified. Open data allows readers to answer questions about aspects of analysis that may be missing from the text. It also allows subsequent researchers to analyze facets of the data that the original researchers did not examine, perform meta analyses on multiple publications, and more easily use existing data to form priors for future Bayesian analyses. Science is a cumulative and collective enterprise.</p>
+<p>Nevertheless, questions have arisen regarding the costs and merits of open data. Documenting and anonymizing data takes time. There are also limits to its error-correcting ability. While reexamination of an experiment’s data can help detect mistakes, problems can occur in any stage of an experiment, including incorrect stimulus presentation, incorrect response recording, and the possibility of a statistical fluke. Furthermore, reusing materials can propagate these mistakes across multiple publications. Overcoming these problems requires complete experiment replication [<a href="#wilson2012replichi">14</a>], not just reproduction of the analysis.</p>
+</div>
+<div id="transparent-conclusions" class="section level3">
+<h3>Transparent Conclusions</h3>
+<p>While our focus is on reporting and analysis, transparent statistics necessarily go hand-in-hand with well-designed and implemented experiments with reasonable conclusions. The conclusions should be nuanced and not convey more certainty than the results [<a href="#dragicevic2016Fair">7</a>]. Overgeneralizing results should also be avoided. If a technique is beneficial in one implementation or task [<a href="#haroz2012capacity">10</a>], how can theory be used to make conclusions that extend beyond the narrow scope of the experiment? How we write about generalizability typically follows uncodified conventions that depend on whether the research took a hypothesis-driven or data-driven approach—themselves direct successors of deductive and inductive reasoning [<a href="#dillon1996user">6</a>]. Failure to differentiate the two often results in overclaiming about the external validity or generalizability of human-centered research [<a href="#bernstein2011trouble">2</a>]. Transparency is increased if research projects describe (1) how they connect to and build off of existing theories and (2) why or if the conclusions are externally valid.</p>
+</div>
+<div id="hci-can-help-statistics" class="section level3">
+<h3>HCI Can Help Statistics!</h3>
+<p>Beyond advancing transparent statistics within our own field, <abbr>HCI</abbr> can provide a unique voice in the ongoing conversation around improving the usability of analysis tools and improving the clarity of statistical communication. We can help improve cryptic statistical systems that are hard to learn, require substantial background to use, and even fail silently (returning incorrect results to unwitting users).</p>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>We propose a meeting at <abbr>CHI</abbr> to discuss the present and future of transparent statistical communication in <abbr>HCI</abbr>, a conversation we hope will improve the clarity, reliability, and impact of quantitative results in the field.</p>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ol>
+<li id="abelson2012statistics">
+Robert P Abelson. 2012. Statistics as principled argument. Psychology Press.
+</li>
+<li id="bernstein2011trouble">
+Michael S Bernstein, Mark S Ackerman, Ed H Chi, and Robert C Miller. 2011. The trouble with social computing systems research. In CHI’11 Extended Abstracts. ACM, 389–398.
+</li>
+<li id="cairns2007hci">
+Paul Cairns. 2007. HCI… not as it should be: inferential statistics in HCI research. In People and Computers: HCI… but not as we know it, Vol. 1. 195–201.
+</li>
+<li id="open2015estimating">
+Open Science Collaboration and others. 2015. Estimating the reproducibility of psychological science. Science 349, 6251, aac4716.
+</li>
+<li id="cumming2013new">
+Geoff Cumming. 2013. The new statistics why and how. Psychological science.
+</li>
+<li id="dillon1996user">
+Andrew Dillon and Charles Watson. 1996. User analysis in HCI–the historical lessons from individual differences research. Int J Human-Comp Studies 45,6.
+</li>
+<li id="dragicevic2016Fair">
+Pierre Dragicevic. 2016. Fair Statistical Communication in HCI. In Modern Statistical Methods for HCI, J. Robertson and M.C. Kaptein (Eds.). Springer. tinyurl.com/fairstats-author In press.
+</li>
+<li id="fisher1955statistical">
+Ronald Fisher. 1955. Statistical methods and scientific induction. Journal of the Royal Statistical Society. Series B (Methodological), 69–78.
+</li>
+<li id="giner2012science">
+Roger Giner-Sorolla. 2012. Science or art? How aesthetic standards grease the way through the publication bottleneck but undermine science. Perspectives on Psychological Science 7, 6, 562–571.
+</li>
+<li id="haroz2012capacity">
+Steve Haroz and David Whitney. 2012. How capacity limits of attention influence information visualization effectiveness. IEEE TVCG 18, 12, 2402–2410.
+</li>
+<li id="kaptein2012rethinking">
+Maurits Kaptein and Judy Robertson. 2012. Rethinking statistical analysis methods for CHI. In CHI 2012.
+</li>
+<li id="kay2016bayes">
+Matthew Kay, Gregory Nelson, and Eric Hekler. 2016. Researcher-centered design of statistics: Why Bayesian statistics better fit the culture and incentives of HCI. In CHI 2016.
+</li>
+<li id="kline2004beyond">
+Rex B Kline, American Psychological Association, and others. 2004. Beyond significance testing: Reforming data analysis methods in behavioral research.
+</li>
+<li id="wilson2012replichi">
+Max Wilson, Wendy Mackay, Ed Chi, Michael Bernstein, and Jeffrey Nichols. 2012. RepliCHI SIG: From a panel to a new submission venue for replication. In CHI’12 Extended Abstracts.
+</li>
+</ol>
+</div>
