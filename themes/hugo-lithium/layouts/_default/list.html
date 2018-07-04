@@ -19,7 +19,7 @@
       </span>
       <p class="archive-item-summary">
         {{ .Summary | plainify | safeHTML }}
-        <span class="archive-item-more-links"><a href="{{ .Permalink }}">Read more…</a></span>
+        <span class="archive-item-more-links"><a href="{{ .RelPermalink }}">Read more…</a></span>
       </p>
     </article>
     {{ end }}
