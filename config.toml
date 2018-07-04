@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Transparent Statistics in HCI"
 theme = "hugo-lithium"
 googleAnalytics = "UA-93322-3"
-disqusShortname = ""
+disqusShortname = "transparentstatistics-org"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
