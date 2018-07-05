@@ -15,7 +15,7 @@ The current draft of the [transparent statistics guidelines](https://transparent
 
 We are repeatedly told that effect sizes are important, and many methodologists urge us to report effect sizes. For example, [Ron Wasserstein](http://www.amstat.org/ASA/About/Ronald-L-Wasserstein.aspx), the executive director of the American Statistical Association, stated that:
 
-> “In the post p<0.05 era, scientific argumentation is not based on whether a p-value is small enough or not. Attention is paid to effect sizes and confidence intervals. Evidence is thought of as being continuous rather than some sort of dichotomy.” [@mccook2016we]
+> _In the post p<0.05 era, scientific argumentation is not based on whether a p-value is small enough or not. Attention is paid to effect sizes and confidence intervals. Evidence is thought of as being continuous rather than some sort of dichotomy._ [@mccook2016we]
 
 Unfortunately, methodologists rarely explain what they exactly mean by "effect size". The current draft of the transparent statistics guidelines ([section 2.1, Effect Size FAQ](https://transparentstats.github.io/guidelines/effectsize.html#faq)) mentions that there is a **narrow sense** and a **broad sense** of the term "effect size". Briefly, the narrow sense refers to a family of standardized (i.e., unitless) measures such as Cohen's d, while the broad sense refers to any measure of interest, standardized or not. This includes simple and familiar metrics like **unstandardized mean differences**, e.g., a mean difference in completion time between two techniques, expressed in seconds.
 
