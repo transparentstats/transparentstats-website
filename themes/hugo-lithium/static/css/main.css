@@ -20,13 +20,18 @@ h5,
 h6 {
   color: #222;
   line-height: 1.3;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 
-h1, h2 {
+h1 {
   font-size: 1.45em;
 }
+h2{
+  font-size: 1.3em;
+}
 h3 {
-  font-size: 1.17em;
+  font-size: 1.1em;
 }
 
 a {
