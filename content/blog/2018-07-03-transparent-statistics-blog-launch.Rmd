@@ -13,6 +13,6 @@ This post marks the transition of the Transparent Statistics in HCI website to [
 2. The website can be contributed to by others via [Github](https://github.com/transparentstats/transparentstats-website).
 3. **(Most excitingly)**, we will be able to begin blogging about transparent statistics in HCI!
 
-To that last point, we will be soliciting posts from members of the community on topics related to transparent statistical communication in human-computer interaction. We also welcome volunteers: if there is something you would like to write about, reach out to us at <core@transparentstatistics.org>! The inaugural post on the blog will be by the one and only [Pierre Dragicevic](http://dragice.fr/).
+To that last point, we will be soliciting posts from members of the community on topics related to transparent statistical communication in human-computer interaction. We also welcome volunteers: if there is something you would like to write about, reach out to us at <core@transparentstatistics.org>! The inaugural post on the blog will be by the one and only [Pierre Dragicevic](http://dragice.fr/), asking [can we call mean differences "effect sizes"?](/2018/07/05/meanings-effect-size)
 
 You can also follow us on Twitter <a href="https://twitter.com/trans_stats_hci">@trans_stats_hci</a> and using [RSS](/blog/index.xml).
