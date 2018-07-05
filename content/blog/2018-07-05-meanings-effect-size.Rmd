@@ -7,7 +7,6 @@ categories: []
 tags: [effect size,guidelines]
 bibliography: 2018-07-05-meanings-effect-size.bib
 link-citations: true
-draft: true
 ---
 
 The current draft of the [transparent statistics guidelines](https://transparentstats.github.io/guidelines/) has an FAQ and exemplar on effect sizes. During a [meeting](http://transparentstatistics.org/chi2018/) we ran at [CHI](https://chi2018.acm.org/) to collect feedback, a participant strongly objected to our use of the term "effect size" in the guidelines. This prompted me to investigate further to make sure we haven't missed anything in deciding the terminology. Here is what I found.

@@ -1,0 +1,270 @@
+---
+title: Can we call mean differences "effect sizes"?
+author: Pierre Dragicevic
+date: '2018-07-05'
+slug: meanings-effect-size
+categories: []
+tags: [effect size,guidelines]
+bibliography: 2018-07-05-meanings-effect-size.bib
+link-citations: true
+---
+
+
+
+<p>The current draft of the <a href="https://transparentstats.github.io/guidelines/">transparent statistics guidelines</a> has an FAQ and exemplar on effect sizes. During a <a href="http://transparentstatistics.org/chi2018/">meeting</a> we ran at <a href="https://chi2018.acm.org/">CHI</a> to collect feedback, a participant strongly objected to our use of the term “effect size” in the guidelines. This prompted me to investigate further to make sure we haven’t missed anything in deciding the terminology. Here is what I found.</p>
+<div id="we-should-report-effect-sizes.-but-what-are-effect-sizes" class="section level2">
+<h2>We should report effect sizes. But what are effect sizes?</h2>
+<p>We are repeatedly told that effect sizes are important, and many methodologists urge us to report effect sizes. For example, <a href="http://www.amstat.org/ASA/About/Ronald-L-Wasserstein.aspx">Ron Wasserstein</a>, the executive director of the American Statistical Association, stated that:</p>
+<blockquote>
+<p><em>In the post p&lt;0.05 era, scientific argumentation is not based on whether a p-value is small enough or not. Attention is paid to effect sizes and confidence intervals. Evidence is thought of as being continuous rather than some sort of dichotomy.</em> <span class="citation">(McCook <a href="#ref-mccook2016we">2016</a>)</span></p>
+</blockquote>
+<p>Unfortunately, methodologists rarely explain what they exactly mean by “effect size”. The current draft of the transparent statistics guidelines (<a href="https://transparentstats.github.io/guidelines/effectsize.html#faq">section 2.1, Effect Size FAQ</a>) mentions that there is a <strong>narrow sense</strong> and a <strong>broad sense</strong> of the term “effect size”. Briefly, the narrow sense refers to a family of standardized (i.e., unitless) measures such as Cohen’s d, while the broad sense refers to any measure of interest, standardized or not. This includes simple and familiar metrics like <strong>unstandardized mean differences</strong>, e.g., a mean difference in completion time between two techniques, expressed in seconds.</p>
+<p>The guidelines currently use “effect size” in a broad sense, and often mentions unstandardized mean differences as an example. At the CHI meeting, a participant who was manifestly knowledgeable about effect sizes strongly objected to this. If I recall correctly, the reasons were: 1) statisticians do not use the term “effect size” in that broad sense, 2) unstandardized mean differences are problematic, and calling them “effect sizes” may encourage HCI researchers to abuse them. There are two distinct questions here:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Is it appropriate to use the term “effect size” to mean things like unstandardized mean differences?</li>
+<li>Which measure of effect size should be reported?</li>
+</ol>
+<p>Both questions are important, but in this post, I will only focus on a).</p>
+</div>
+<div id="sources-currently-cited-in-the-guidelines" class="section level2">
+<h2>Sources currently cited in the guidelines</h2>
+<p>The Effect Size FAQ provides a few references to justify its current use of the term “effect size”. The first reference is from <a href="https://www.latrobe.edu.au/psychology/staff/profile?uname=GDCumming">Geoff Cumming</a>, a researcher in statistical cognition and prominent methodologist. Here are two excerpts from his 2013 book:</p>
+<blockquote>
+<p><em>An effect is anything we might be interested in, and an effect size is simply the size of anything that may be of interest.</em> <span class="citation">(Cumming <a href="#ref-cumming2013understanding">2013</a>, 34)</span></p>
+</blockquote>
+<blockquote>
+<p>[an effect size] <em>can be as familiar as a mean, a difference between means, a percentage, a median, or a correlation. It may be a standardized value, such as Cohen’s d (more on this later), or a regression coefficient, path coefficient, odds ratio, or percentage of variance explained.</em> <span class="citation">(Cumming <a href="#ref-cumming2013understanding">2013</a>, 38)</span></p>
+</blockquote>
+<p>The second reference is from <a href="https://en.wikipedia.org/wiki/Leland_Wilkinson">Leland Wilkinson</a>, who is a statistician, and also a prominent methodologist. Here is a quote from a paper he co-authored with a “Task Force on Statistical Inference” commissioned by the American Psychological Association (APA) in 1999:</p>
+<blockquote>
+<p><em>Always present effect sizes for primary outcomes. If the units of measurement are meaningful on a practical level (e.g., number of cigarettes smoked per day), then we usually prefer an unstandardized measure (regression coefficient or mean difference) to a standardized measure (r or d).</em> <span class="citation">(Wilkinson <a href="#ref-wilkinson1999statistical">1999</a>, 599)</span></p>
+</blockquote>
+<p>The Effect Size FAQ additionally cites Thomas Baguley, a psychology Professor and author of a solid introductory statistics book entitled “Serious Stats” <span class="citation">(Thomas Baguley <a href="#ref-baguley2012serious">2012</a>)</span>. Baguley also employs the term “effect size” in a broad sense, and refers to unstandardized effect sizes as “simple effect sizes”:</p>
+<blockquote>
+<p><em>A straightforward way to report the magnitude of an effect is to use the original units of measurement.</em> […] <em>Such effect sizes are frequently labeled as raw or unstandardized effect sizes – terms that might suggest these metrics are inferior in some way. To avoid this suggestion I adopt the more neutral term simple effect size (see Frick, 1999).</em> <span class="citation">(Thomas Baguley <a href="#ref-baguley2012serious">2012</a>, 239)</span></p>
+</blockquote>
+<blockquote>
+<p><em>A standardized measure of effect is one which has been scaled in terms of the variability of the sample or population from which the measure was taken. In contrast, simple effect size (Frick, 1999) is unstandardized and expressed in the original units of analysis.</em> <span class="citation">(Thom Baguley <a href="#ref-baguley2009standardized">2009</a>, 604)</span>.</p>
+</blockquote>
+<p>I will get back to (Frick, 1999) later on. For now, I should point out that the current FAQ also cites an article by Peter Cummings, an epidemiology Professor and methodologist, who uses the term “effect size” to refer to standardized mean differences only:</p>
+<blockquote>
+<p><em>For a continuous outcome, some researchers estimate the difference in the mean outcome values of 2 groups, such as a treated group and a control group, and divide that difference by the standard deviation (SD) of the outcome values; this converts the estimated effect to SD units. This has been called a standardized mean difference or effect size, and it has 3 variations.</em> <span class="citation">(Cummings <a href="#ref-cummings2011arguments">2011</a>, 592)</span></p>
+</blockquote>
+</div>
+<div id="effect-size-is-often-used-in-a-broad-sense" class="section level2">
+<h2>“Effect size” is often used in a broad sense</h2>
+<p>Following the CHI meeting, I dived deeper into the literature. I found that several general sources use “effect size” in a broad sense, including Wikipedia:</p>
+<blockquote>
+<p><em>The term effect size can refer to a standardized measure of effect (such as r, Cohen’s d, or the odds ratio), or to an unstandardized measure (e.g., the difference between group means or the unstandardized regression coefficients).</em> <span class="citation">(Wikipedia contributors <a href="#ref-wikipedia2018effectsize">2018</a>)</span></p>
+</blockquote>
+<p>and the latest edition of the APA Publication Manual:</p>
+<blockquote>
+<p><em>Effect sizes may be expressed in the original units (e.g., the mean number of questions answered correctly; kg/month for a regression slope) and are often most easily understood when reported in original units. It can often be valuable to report an effect size not only in original units but also in some standardized or units-free unit (e.g., as a Cohen’s d value) or a standardized regression weight.</em> <span class="citation">(American Psychological Association <a href="#ref-APA2010">2010</a>, 34)</span></p>
+</blockquote>
+<p>The terms “unstandardized effect size” and “standardized effect size” are commonly used in the literature <span class="citation">(see also Richardson <a href="#ref-richardson1996measures">1996</a>; Hentschke and Stüttgen <a href="#ref-hentschke2011computation">2011</a>; Kampenes et al. <a href="#ref-kampenes2007systematic">2007</a>)</span>, and this automatically implies a broad definition of effect size.</p>
+</div>
+<div id="effect-size-is-also-often-used-in-a-narrow-sense" class="section level2">
+<h2>“Effect size” is also often used in a narrow sense</h2>
+<p>I also found a number of sources that use “effect size” in a narrow sense. For the Cambridge Dictionary of Statistics, an effect size is a standardized mean difference:</p>
+<blockquote>
+<p><em>Effect size: Most commonly the difference between the control group and experimental group population means of a response variable divided by the assumed common population standard deviation. Estimated by the difference of the sample means in the two groups divided by a pooled estimate of the assumed common standard deviation. Often used in meta-analysis. See also counternull-value.</em> <span class="citation">(Everitt and Skrondal <a href="#ref-everitt2010dictionary">2010</a>, 148)</span></p>
+</blockquote>
+<p>Other articles employ a similar definition:</p>
+<blockquote>
+<p><em>In most ecological applications of meta-analysis to date, effect size has been defined as the difference between two treatments—experimental and control—standardized by the pooled within-treatment standard deviation.</em> <span class="citation">(Osenberg, Sarnelle, and Cooper <a href="#ref-osenberg1997effect">1997</a>, 798)</span></p>
+</blockquote>
+<blockquote>
+<p><em>The effect size is just the standardised mean difference between the two groups.</em> <span class="citation">(Coe <a href="#ref-coe2002s">2002</a>, 3)</span></p>
+</blockquote>
+<p>In other articles, typically articles with a focus on meta-analytic applications, effect sizes are not necessarily standardized mean differences, but they are necessarily standardized or unitless:</p>
+<blockquote>
+<p><em>A concept which could seem puzzling is that the effect size needs to be dimensionless, as it should deliver the same information regardless of the system used to take the observations.</em> <span class="citation">(Ialongo <a href="#ref-ialongo2016understanding">2016</a>, 151)</span></p>
+</blockquote>
+<blockquote>
+<p><em>There are myriad effect sizes from which the researcher can choose. Useful reviews of the choices have been provided by Kirk (1996), Snyder and Lawson (1993) and Friedman (1968), among others. Effect sizes can be categorized into two broad classes: variance accounted-for measures (e.g. R2 , eta(h)) and standardized differences (e.g. Cohen’s d, Hedges’ g) (Kirk [1996] identifies a third, ‘miscellaneous’ class.)</em> <span class="citation">(Thompson <a href="#ref-thompson1999if">1999</a>, 171)</span></p>
+</blockquote>
+</div>
+<div id="unstandardized-effect-sizes-are-often-dismissed-as-uninteresting" class="section level2">
+<h2>Unstandardized effect sizes are often dismissed as uninteresting</h2>
+<p>Several survey articles do not explicitly define the term “effect size” but exclusively discuss standardized effect sizes <span class="citation">(Levine et al. <a href="#ref-levine2008communication">2008</a>; Ferguson <a href="#ref-ferguson2009effect">2009</a>; Huberty <a href="#ref-huberty2002history">2002</a>)</span>. Other articles admit that effect sizes can be unstandardized, but consider that such measures are not useful for meta-analysis and are barely worth mentioning. This is the case for the Sage Dictionary of Statistics:</p>
+<blockquote>
+<p><em>Effect size: a term used in meta-analysis and more generally to indicate the relationship between two variables. The normal implication of the term effect size is that it indicates the size of the difference between the means of the conditions or groups on the dependent variable. Such an approach does not readily allow direct comparisons between studies using different measuring instruments and so forth. Consequently effect size is normally reported as a more standardized index such as Cohen’s d.</em> <span class="citation">(Cramer and Howitt <a href="#ref-cramer2004sage">2004</a>, 55)</span></p>
+</blockquote>
+<p>Similarly, one of the most cited books on meta-analysis states:</p>
+<blockquote>
+<p><em>This chapter began by presenting alternative measures of the size of the treatment effect: the raw score mean difference, the standard score mean difference (d or δ), and the point biserial correlation (r or ρ). Because different authors use different measures of the dependent variable, the raw score difference is not usually reasonable for meta-analysis.</em> […] <em>Thus, the usual statistics used to characterize the size of the treatment effect are d and r.</em> <span class="citation">(Schmidt and Hunter <a href="#ref-schmidt2014methods">2014</a>, 328)</span></p>
+</blockquote>
+<p>And here is another example from a survey on effect size metrics:</p>
+<blockquote>
+<p><em>The ideal effect size estimate should be a statistic that has at least three characteristics. First, it should measure the practical significance of a result</em> […] <em>Second, it should be independent of sample size</em> […]. <em>Third, it should be metric free</em> […] <em>although not all effect size measures are metric free, metric-free effect size measures facilitate the comparison of results across different studies.</em> […] <em>In an effort to fulfill these three goals, quite a few statistics have been proposed as effect size measures.</em> <span class="citation">(Ives <a href="#ref-ives2003effect">2003</a>, 493)</span></p>
+</blockquote>
+<p>These articles helped me understand why some researchers would object to the way the term “effect size” is currently used in the transparent statistics guidelines. This term is used differently in the field of meta-analysis, and I thought maybe the term has originated from that field and has been corrupted by others. As it turns out, the participant to our CHI meeting who objected to our use of the term “effect size” gives lectures on meta-analysis.</p>
+<p>At this point, I started to wonder whether the guidelines should adopt another term like “effect magnitude” so that it does not participate in spreading the confusion. But then, I looked at the original publications from Jacob Cohen, prompted by the following quote from Robert W. Frick, the researcher from whom Baguley borrowed the term “simple effect size”:</p>
+<blockquote>
+<p><em>To most researchers, ‘effect size’ is the difference between the means of two conditions. I will call this simple effect size. Contrary to the implications of the APA Publication Manual (1994), some methodologists (e.g. Cohen, 1988) include simple effect size as a measure of effect size. To most methodologists, however, ‘effect size’ is a measure in which the simple effect size is compared to a measure of variance. I will call these measures statistical effect size.</em> <span class="citation">(Frick <a href="#ref-frick1999defending">1999</a>, 184)</span></p>
+</blockquote>
+</div>
+<div id="what-jacob-cohen-meant-by-effect-size" class="section level2">
+<h2>What Jacob Cohen meant by “effect size”</h2>
+<p><a href="https://en.wikipedia.org/wiki/Jacob_Cohen_(statistician)">Jacob Cohen</a> is a renown statistician and psychologist who contributed to laying the foundations of meta-analysis. Although I couldn’t obtain articles older than 1970 and I can’t definitely confirm this, it is plausible that he was the one who coined the term “effect size”. Here is how he defined it in his famous book “Statistical Power Analysis for the Behavioral Sciences”, originally published in 1969:</p>
+<blockquote>
+<p><em>The “effect size”</em> [is] <em>the degree to which the phenomenon exists.</em> <span class="citation">(Cohen <a href="#ref-cohen1988statistical">1988</a>, 4)</span></p>
+</blockquote>
+<p>His definition was broad and clearly included unstandardized mean differences:</p>
+<blockquote>
+<p><em>Without intending any necessary implication of causality, it is convenient to use the phrase “effect size” to mean “the degree to which the phenomenon is present in the population,” or “the degree to which the null hypothesis is false.” Whatever the manner of representation of a phenomenon in a particular research in the present treatment, the null hypothesis always means that the effect size is zero.</em> […] <em>Thus, in terms of the previous illustrations:</em> […] <em>If the population of consumers preferring brand A has a median annual income $700 higher than that of brand B, the ES is $700. If the population median difference and hence the ES is $1000, the effect of income on brand preference would be larger.</em> […] <em>Thus, whether measured in one unit or another, whether expressed as a difference between two population parameters or the departure of a population parameter from a constant or in any other suitable way, the ES can itself be treated as a parameter which takes the value zero when the null hypothesis is true and some other specific nonzero value when the null hypothesis is false, and in this way the ES serves as an index of degree of departure from the null hypothesis.</em> <span class="citation">(Cohen <a href="#ref-cohen1988statistical">1988</a>, 9–10)</span></p>
+</blockquote>
+<p>These excerpts are also present in the revised version of the first edition <span class="citation">(Cohen <a href="#ref-cohen1977statistical">1977</a>)</span> and probably also in the original 1969 edition, although I wasn’t able to access it. In 1970, Cohen already wrote:</p>
+<blockquote>
+<p><em>The effect size measures the extent to which the null hypothesis is false, i.e., the discrepancy between S0 and S1. It can be measured in raw units as simply S1 - S0, or in standard error units 𝛿 = (S1 - S0) / σ </em> <span class="citation">(Cohen <a href="#ref-cohen1970approximate">1970</a>, 814)</span></p>
+</blockquote>
+<p>In his book on meta-analysis, Cohen then explains that it is desirable to come up with “universal effect size indices” that facilitate comparisons across studies:</p>
+<blockquote>
+<p><em>In the previous illustrations, ES was variously expressed as a departure in percent from 50, a departure in IQ units from 100, a product moment r, a difference between two medians in dollars, etc. It is clearly desirable to reduce this diversity of units as far as possible, consistent with present usage by behavioural scientists. From one point of view, a universal ES index, applicable to all the various research issues and statistical models used in their appraisal, would be the ideal.</em> <span class="citation">(Cohen <a href="#ref-cohen1988statistical">1988</a>, 11)</span></p>
+</blockquote>
+<blockquote>
+<p><em>The index of effect size, ES</em> [is] <em>the departure of the “true” (population) state of affairs from H0, as assumed or hypothesized by the investigator, measured in metric-free units appropriate to the statistical test.</em> <span class="citation">(Cohen <a href="#ref-cohen1973brief">1973</a>, 226)</span></p>
+</blockquote>
+<p>It appears that for Cohen, an index of effect size is a type of effect size, that is unitless and therefore useful for the purposes of meta-analysis. But he never abandoned his broad definition of effect size, as can be read in his 1990 retrospective article:</p>
+<blockquote>
+<p><em>Effect-size measures include mean differences (raw or standardized), correlations and squared correlation of all kinds, odds ratios, kappas—whatever conveys the magnitude of the phenomenon of interest appropriate to the research context.</em> <span class="citation">(Cohen <a href="#ref-cohen1990things">1990</a>, 1310)</span></p>
+</blockquote>
+</div>
+<div id="why-the-different-meanings-today" class="section level2">
+<h2>Why the different meanings today?</h2>
+<p>I’m far from having done a complete literature survey and I can only speculate. But it seems possible that:</p>
+<ol style="list-style-type: decimal">
+<li>When he formalized meta-analysis, Jacob Cohen introduced the term “effect size” that he unambiguously meant in a broad sense. He however focused his research on standardized measures of effect sizes, which he referred to as “indices of effect size”.</li>
+<li>Subsequent researchers writing about meta-analysis came to use the term “effect size” as a synonym for those “interesting” (for meta-analysis) types of effect size, and perhaps ended up forgetting Cohen’s original definition.</li>
+<li>More recently, methodologists focusing on statistical communication (rather than meta-analysis) started to employ the term “effect size” with a similar meaning to Cohen’s original definition, albeit stripped from its reference to statistical significance.</li>
+</ol>
+<p>Two methodologists, Ken Kelley and Kristopher Preacher, provide a good overview of the different meanings of “effect size” used in the literature since Jacob Cohen <span class="citation">(Preacher and Kelley <a href="#ref-preacher2011effect">2011</a>; Kelley and Preacher <a href="#ref-kelley2012effect">2012</a>)</span>. They conclude that a broad definition of effect size is the most useful:</p>
+<blockquote>
+<p><em>In response to the need for a general, inclusive definition of effect size, we define effect size as any measure that reflects a quantity of interest, either in an absolute sense or as compared with some specified value. The quantity of interest might refer to variability, association, difference, odds, rate, duration, discrepancy, proportionality, superiority, or degree of fit or misfit.</em> […] <em>Although standardized effect sizes can be valuable, they are not always to be preferred over an effect size that is wedded to the original measurement scale, which may already be expressed in meaningful units that appropriately address the question of interest.</em> <span class="citation">(Preacher and Kelley <a href="#ref-preacher2011effect">2011</a>, 95)</span></p>
+</blockquote>
+<p>Their definition clearly includes unstandardized mean differences:</p>
+<blockquote>
+<p><em>For example, group mean differences in scores on a widely understood instrument for measuring depressive symptoms are already expressed on a metric that is understandable to depression researchers, and to standardize effects involving the scale would only confuse matters.</em> <span class="citation">(Preacher and Kelley <a href="#ref-preacher2011effect">2011</a>, 95)</span></p>
+</blockquote>
+<p>We have seen several methodologists who argue for adopting a broad definition of the term “effect size”. Meanwhile, I haven’t seen papers where a methodologist explicitly argues that the term “effect size” should be used in a narrow sense. In all the papers I’ve seen, the narrow definition seems to be used in a <a href="https://en.wikipedia.org/wiki/Stipulative_definition">stipulative</a> manner, without authors giving much thought to it.</p>
+</div>
+<div id="so-how-should-we-use-the-term" class="section level2">
+<h2>So how should we use the term?</h2>
+<p>From all this, it seems clear that <strong>“effect size” can be used both in a broad sense and in a narrow sense</strong>, provided that the author is consistent and clarifies what they are talking about.</p>
+<p>In my opinion, <strong>the broad sense is more useful in general methodological discussions</strong>. The terms “unstandardized (or simple) effect size” and “standardized effect size” are widely used and perfectly capable of resolving any ambiguity. Using “effect size” in a broad sense doesn’t commit anyone to any particular statistical reporting practice. Anyone is free to point out limitations and possible dangers of reporting unstandardized effect sizes or standardized effect sizes. When the truth of a statement depends on whether it refers to standardized or unstandardized effect sizes, the term “effect size” without a qualifier should simply be avoided.</p>
+<p>Using “effect size” to mean only “standardized effect size” is problematic because it requires finding another term for unstandardized effect sizes. I don’t recall any user of the narrow definition proposing such a term, and even if they did, a different term could give the wrong impression that unstandardized and standardized effect sizes have nothing in common. Cohen and others were clear about the analogies between the two.</p>
+<p>I referred to “the” broad sense&quot; and “the” narrow sense, but in reality there are many possible definitions of “effect size” in both cases. If one needs an explicit definition, the one from <span class="citation">Preacher and Kelley (<a href="#ref-preacher2011effect">2011</a>)</span> quoted above is quite extensive and informed by a good knowledge of the past literature. <span class="citation">Kelley and Preacher (<a href="#ref-kelley2012effect">2012</a>)</span> later provided an updated definition that is more precise but perhaps a bit more awkward:</p>
+<blockquote>
+<p><em>Effect size is defined as a quantitative reflection of the magnitude of some phenomenon that is used for the purpose of addressing a question of interest.</em> […] <em>The question of interest might refer to central tendency, variability, association, difference, odds, rate, duration, discrepancy, proportionality, superiority, or degree of fit or misfit, among others.</em> <span class="citation">(Kelley and Preacher <a href="#ref-kelley2012effect">2012</a>, 140)</span></p>
+</blockquote>
+<p>Statistical terminology is notoriously messy <span class="citation">(Grace-Martin <a href="#ref-gracemartin2018confusing">2018</a>)</span>. The case of effect sizes is one among many where blanket statements containing the word “statisticians” should be taken with skepticism <span class="citation">(Gelman <a href="#ref-gelman2018pizzagate">2018</a>)</span>. Few HCI researchers appreciate the number of statistics topics on which there is no consensus. When there is no consensus on a topic, article authors should be free to choose the option they prefer, provided that their choice is made explicit and justified with references from the methodology literature. It is bad behavior for a reviewer to ignore these references and force their own opinion on the authors. As HCI Professor Shumin Zhai put it, “research results, paper writing, and reviewing are just not the right forum for statistical method discussion.” <span class="citation">(Robertson and Kaptein <a href="#ref-robertson2016modern">2016</a>, v)</span>.</p>
+<p>Now there is also the question of what types of effect sizes we should report. This post hasn’t addressed that question. I trust you have already guessed from the quotes that this is another question for which there is no simple and universal answer.</p>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements</h2>
+<p>Thanks to <a href="http://fannychevalier.net/">Fanny Chevalier</a>, <a href="http://steveharoz.com/">Steve Haroz</a>, <a href="http://yvonnejansen.me/">Yvonne Jansen</a>, and <a href="http://www.mjskay.com/">Matthew Kay</a> for their feedback.</p>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-APA2010">
+<p>American Psychological Association. 2010. <em>The Publication Manual of the Apa (6th Ed.)</em>. Washington, DC.</p>
+</div>
+<div id="ref-baguley2009standardized">
+<p>Baguley, Thom. 2009. “Standardized or Simple Effect Size: What Should Be Reported?” <em>British Journal of Psychology</em> 100 (3). Wiley Online Library: 603–17.</p>
+</div>
+<div id="ref-baguley2012serious">
+<p>Baguley, Thomas. 2012. <em>Serious Stats: A Guide to Advanced Statistics for the Behavioral Sciences</em>. Macmillan International Higher Education.</p>
+</div>
+<div id="ref-coe2002s">
+<p>Coe, Robert. 2002. “It’s the Effect Size, Stupid: What Effect Size Is and Why It Is Important.” Education-line.</p>
+</div>
+<div id="ref-cohen1970approximate">
+<p>Cohen, Jacob. 1970. “Approximate Power and Sample Size Determination for Common One-Sample and Two-Sample Hypothesis Tests.” <em>Educational and Psychological Measurement</em> 30 (4). Sage Publications Sage CA: Thousand Oaks, CA: 811–31.</p>
+</div>
+<div id="ref-cohen1973brief">
+<p>———. 1973. “Brief Notes: Statistical Power Analysis and Research Results.” <em>American Educational Research Journal</em> 10 (3). Sage Publications Sage CA: Los Angeles, CA: 225–29.</p>
+</div>
+<div id="ref-cohen1977statistical">
+<p>———. 1977. “Statistical Power Analysis for the Behavioral Sciences (Rev. Ed.).” Erlbaum Associates, Hillsdale, NJ, US.</p>
+</div>
+<div id="ref-cohen1988statistical">
+<p>———. 1988. “Statistical Power Analysis for the Behavioral Sciences (2nd Ed.).” Erlbaum Associates, Hillsdale, NJ, US.</p>
+</div>
+<div id="ref-cohen1990things">
+<p>———. 1990. “Things I Have Learned (so Far).” <em>American Psychologist</em> 45 (12). American Psychological Association: 1304.</p>
+</div>
+<div id="ref-cramer2004sage">
+<p>Cramer, Duncan, and Dennis Laurence Howitt. 2004. <em>The Sage Dictionary of Statistics: A Practical Resource for Students in the Social Sciences</em>. Sage.</p>
+</div>
+<div id="ref-cumming2013understanding">
+<p>Cumming, Geoff. 2013. <em>Understanding the New Statistics: Effect Sizes, Confidence Intervals, and Meta-Analysis</em>. Routledge.</p>
+</div>
+<div id="ref-cummings2011arguments">
+<p>Cummings, Peter. 2011. “Arguments for and Against Standardized Mean Differences (Effect Sizes).” <em>Archives of Pediatrics &amp; Adolescent Medicine</em> 165 (7). American Medical Association: 592–96.</p>
+</div>
+<div id="ref-everitt2010dictionary">
+<p>Everitt, B S, and A Skrondal. 2010. <em>The Cambridge Dictionary of Statistics; 4th ed.</em> Leiden: Cambridge University Press.</p>
+</div>
+<div id="ref-ferguson2009effect">
+<p>Ferguson, Christopher J. 2009. “An Effect Size Primer: A Guide for Clinicians and Researchers.” <em>Professional Psychology: Research and Practice</em> 40 (5). American Psychological Association: 532.</p>
+</div>
+<div id="ref-frick1999defending">
+<p>Frick, Robert W. 1999. “Defending the Statistical Status Quo.” <em>Theory &amp; Psychology</em> 9 (2). Sage Publications Sage CA: Thousand Oaks, CA: 183–89.</p>
+</div>
+<div id="ref-gelman2018pizzagate">
+<p>Gelman, Andrew. 2018. “Pizzagate: The Problem’s Not with the Multiple Analyses, It’s with the Selective Reporting of Results.” <em>Statistical Modeling, Causal Inference, and Social Science</em>. <a href="http://andrewgelman.com/2018/02/27/no-researchers-not-typically-set-prove-specific-hypothesis-study-begins/" class="uri">http://andrewgelman.com/2018/02/27/no-researchers-not-typically-set-prove-specific-hypothesis-study-begins/</a>.</p>
+</div>
+<div id="ref-gracemartin2018confusing">
+<p>Grace-Martin, Karen. 2018. “Series on Confusing Statistical Terms.” <em>The Analysis Factor</em>. <a href="https://www.theanalysisfactor.com/series-on-confusing-statistical-terms/" class="uri">https://www.theanalysisfactor.com/series-on-confusing-statistical-terms/</a>.</p>
+</div>
+<div id="ref-hentschke2011computation">
+<p>Hentschke, Harald, and Maik C Stüttgen. 2011. “Computation of Measures of Effect Size for Neuroscience Data Sets.” <em>European Journal of Neuroscience</em> 34 (12). Wiley Online Library: 1887–94.</p>
+</div>
+<div id="ref-huberty2002history">
+<p>Huberty, Carl J. 2002. “A History of Effect Size Indices.” <em>Educational and Psychological Measurement</em> 62 (2). Sage Publications Sage CA: Thousand Oaks, CA: 227–40.</p>
+</div>
+<div id="ref-ialongo2016understanding">
+<p>Ialongo, Cristiano. 2016. “Understanding the Effect Size and Its Measures.” <em>Biochemia Medica: Biochemia Medica</em> 26 (2). Medicinska naklada: 150–63.</p>
+</div>
+<div id="ref-ives2003effect">
+<p>Ives, Bob. 2003. “Effect Size Use in Studies of Learning Disabilities.” <em>Journal of Learning Disabilities</em> 36 (6). Sage Publications Sage CA: Los Angeles, CA: 490–504.</p>
+</div>
+<div id="ref-kampenes2007systematic">
+<p>Kampenes, Vigdis By, Tore Dybå, Jo E Hannay, and Dag IK Sjøberg. 2007. “A Systematic Review of Effect Size in Software Engineering Experiments.” <em>Information and Software Technology</em> 49 (11-12). Elsevier: 1073–86.</p>
+</div>
+<div id="ref-kelley2012effect">
+<p>Kelley, Ken, and Kristopher J Preacher. 2012. “On Effect Size.” <em>Psychological Methods</em> 17 (2). American Psychological Association: 137.</p>
+</div>
+<div id="ref-levine2008communication">
+<p>Levine, Timothy R, René Weber, Hee Sun Park, and Craig R Hullett. 2008. “A Communication Researchers’ Guide to Null Hypothesis Significance Testing and Alternatives.” <em>Human Communication Research</em> 34 (2). Oxford University Press Oxford, UK: 188–209.</p>
+</div>
+<div id="ref-mccook2016we">
+<p>McCook, Alison. 2016. “We’re Using a Common Statistical Test All Wrong: Statisticians Want to Fix That.” <em>Retraction Watch</em>. <a href="https://retractionwatch.com/2016/03/07/were-using-a-common-statistical-test-all-wrong-statisticians-want-to-fix-that/" class="uri">https://retractionwatch.com/2016/03/07/were-using-a-common-statistical-test-all-wrong-statisticians-want-to-fix-that/</a>.</p>
+</div>
+<div id="ref-osenberg1997effect">
+<p>Osenberg, Craig W, Orlando Sarnelle, and Scott D Cooper. 1997. “Effect Size in Ecological Experiments: The Application of Biological Models in Meta-Analysis.” <em>The American Naturalist</em> 150 (6). The University of Chicago Press: 798–812.</p>
+</div>
+<div id="ref-preacher2011effect">
+<p>Preacher, Kristopher J, and Ken Kelley. 2011. “Effect Size Measures for Mediation Models: Quantitative Strategies for Communicating Indirect Effects.” <em>Psychological Methods</em> 16 (2). American Psychological Association: 93.</p>
+</div>
+<div id="ref-richardson1996measures">
+<p>Richardson, John TE. 1996. “Measures of Effect Size.” <em>Behavior Research Methods, Instruments, &amp; Computers</em> 28 (1). Springer: 12–22.</p>
+</div>
+<div id="ref-robertson2016modern">
+<p>Robertson, Judy, and Maurits Kaptein. 2016. <em>Modern Statistical Methods for Hci</em>. Springer.</p>
+</div>
+<div id="ref-schmidt2014methods">
+<p>Schmidt, Frank L, and John E Hunter. 2014. <em>Methods of Meta-Analysis: Correcting Error and Bias in Research Findings. 2nd Edition</em>. Sage publications.</p>
+</div>
+<div id="ref-thompson1999if">
+<p>Thompson, Bruce. 1999. “If Statistical Significance Tests Are Broken/Misused, What Practices Should Supplement or Replace Them?” <em>Theory &amp; Psychology</em> 9 (2). Sage Publications Sage CA: Thousand Oaks, CA: 165–81.</p>
+</div>
+<div id="ref-wikipedia2018effectsize">
+<p>Wikipedia contributors. 2018. “Effect Size.” <em>Wikipedia</em>. <a href="https://en.wikipedia.org/wiki/Effect_size#Standardized_and_unstandardized_effect_sizes" class="uri">https://en.wikipedia.org/wiki/Effect_size#Standardized_and_unstandardized_effect_sizes</a>.</p>
+</div>
+<div id="ref-wilkinson1999statistical">
+<p>Wilkinson, Leland. 1999. “Statistical Methods in Psychology Journals: Guidelines and Explanations.” <em>American Psychologist</em> 54 (8). American Psychological Association: 594.</p>
+</div>
+</div>
+</div>
