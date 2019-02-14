@@ -9,19 +9,19 @@ At the conference, we'd recommend checking out the following presentations that 
 
 ## Paper Presentations
 
-* Touchstone2: An Interactive Environment for Exploring Trade-offs in HCI Experiment Design (Eiselmayer et al.) [[📄pre-print]](https://osf.io/ab536/download)
-* Increasing the Transparency of Research Papers with Explorable Multiverse Analyses (Dragicevic et al.) [[📄pre-print]](https://hal.inria.fr/hal-01976951/document)
+* Touchstone2: An Interactive Environment for Exploring Trade-offs in HCI Experiment Design (Eiselmayer et al.) [⬇️pre-print](https://osf.io/ab536/download)
+* Increasing the Transparency of Research Papers with Explorable Multiverse Analyses (Dragicevic et al.) [⬇️pre-print](https://hal.inria.fr/hal-01976951/document)
 
 ## alt.chi Presentations
 
-* The Continued Prevalence of Dichotomous Inferences at CHI (Besançon & Dracigevic) [[📄pre-print]](https://hal.inria.fr/hal-01980268/document)
+* The Continued Prevalence of Dichotomous Inferences at CHI (Besançon & Dracigevic) [⬇️pre-print](https://hal.inria.fr/hal-01980268/document)
 
 
 ## Submission that were not accepted 😢
 
 We commend all the authors who make their pre-prints publicly available to advanceme of the public discourses.
 
-* Replication and Transparency of Qualitative Research from a Constructivist Perspective (Talkad Sukumar & Metoyer) [[📄pre-print]](https://osf.io/6efvp/download)
+* Replication and Transparency of Qualitative Research from a Constructivist Perspective (Talkad Sukumar & Metoyer) [⬇️pre-print](https://osf.io/6efvp/download)
 
 If we miss anything, email the title of your paper and the URL to the pre-print to [chat@ifi.uzh.ch](mailto:chat@ifi.uzh.ch).
 
