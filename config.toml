@@ -10,6 +10,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     blog = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Guideline"
+    url = "https://transparentstats.github.io/guidelines/"
+[[menu.main]]
     name = "Blog"
     url = "/blog"
 [[menu.main]]
