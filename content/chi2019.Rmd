@@ -15,6 +15,7 @@ At the conference, we'd recommend checking out the following presentations that 
 ## alt.chi Presentations
 
 * The Continued Prevalence of Dichotomous Inferences at CHI (Besançon & Dracigevic) [⬇️pre-print](https://hal.inria.fr/hal-01980268/document)
+* How we Guide, Write, and Cite at CHI (Pohl & Mottelson) [⬇️pre-print](https://osf.io/cuatn/download)
 
 
 ## Submission that were not accepted 😢
