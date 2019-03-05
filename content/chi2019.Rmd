@@ -3,7 +3,7 @@ title: "Transparent Statistics @ CHI 2019"
 date: "2019-02-14"
 ---
 
-At CHI 2019, we will organize a Transparent Statistics Lunch. More details forthcoming!
+At CHI 2019, we will organize a Transparent Statistics Lunch on Thursday May 9. [Sign up here](http://tinyurl.com/transparentstat-lunch-chi2019)
 
 At the conference, we'd recommend checking out the following presentations that are relevant to Transparent Statistics:
 
