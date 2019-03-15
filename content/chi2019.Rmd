@@ -9,8 +9,8 @@ At the conference, we'd recommend checking out the following presentations that 
 
 ## Paper Presentations
 
-* Touchstone2: An Interactive Environment for Exploring Trade-offs in HCI Experiment Design (Eiselmayer et al.) [⬇️pre-print](https://osf.io/ab536/download)
-* Increasing the Transparency of Research Papers with Explorable Multiverse Analyses (Dragicevic et al.) [⬇️pre-print](https://hal.inria.fr/hal-01976951/document)
+* Touchstone2: An Interactive Environment for Exploring Trade-offs in HCI Experiment Design (Eiselmayer et al.) [⬇️pre-print](https://osf.io/ab536/download) ![](../images/award_best.png)
+* Increasing the Transparency of Research Papers with Explorable Multiverse Analyses (Dragicevic et al.) [⬇️pre-print](https://hal.inria.fr/hal-01976951/document) ![](../images/award_best.png)
 
 ## alt.chi Presentations
 
