@@ -11,6 +11,10 @@ At the conference, we'd recommend checking out the following presentations that 
 
 * Touchstone2: An Interactive Environment for Exploring Trade-offs in HCI Experiment Design (Eiselmayer et al.) [⬇️pre-print](https://osf.io/ab536/download) ![Best paper award](../images/award_best.png)
 * Increasing the Transparency of Research Papers with Explorable Multiverse Analyses (Dragicevic et al.) [⬇️pre-print](https://hal.inria.fr/hal-01976951/document) ![Best paper award](../images/award_best.png)
+* Designing for Reproducibility: A Qualitative Study of Challenges and Opportunities in High Energy Physics (Feger et al.)
+[⬇️pre-print](https://arxiv.org/abs/1903.05875)
+* Gamification in Science: A Study of Requirements in the Context of Reproducible Research (Feger et al.)
+[⬇️pre-print](https://arxiv.org/abs/1903.02446)
 
 ## alt.chi Presentations
 
