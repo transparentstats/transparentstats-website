@@ -2,7 +2,7 @@
 .pydevproject
 .settings
 *~
-*.Rproj*
+*.Rproj.user
 public
 .RData
 .Rhistory
