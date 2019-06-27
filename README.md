@@ -18,3 +18,7 @@ The directories of interest are probably:
 
 - [public/](public/): The directory output directory, into which the contents of `content/` (after being compiled)
   and the contents of `static/` are copited when the website is built. **Do not edit directly**.
+
+## Deploying
+
+The deployed version of the website is built automatically by Netlify based on the `master` branch of this repository on Github. Therefore, please do not push things to master that you haven't tested :).
