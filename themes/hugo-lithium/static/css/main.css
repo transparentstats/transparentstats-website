@@ -377,8 +377,3 @@ blockquote {
 ul, ol { 
   margin-top: -1em;
 }
-
-/* bring header text closer to subsequent section */
-h2, h3, h4, h5, h6 {
-  margin-bottom: 0.6em !important;
-}
