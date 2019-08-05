@@ -7,13 +7,13 @@ categories: []
 tags: [chi]
 ---
 
-Over the past year, members of [Transparent Statistics in HCI](https://transparentstatistics.org/) have worked with people across various disciplines of the HCI community and chairs of the conference (full contributor list below) to update the CHI guides for a successful submission and for reviewing. These new instructions aim to increase the transparency and openness of research, including:
+Over the past year, members of [Transparent Statistics in HCI](https://transparentstatistics.org/) have worked with people across various disciplines of the HCI community and chairs of the conference (full contributor list below) to update the CHI guides for a successful submission and for reviewing. These new instructions aim to increase the transparency and openness of several facets of research, including:
 
 * decisions performed
 * materials created or used
 * data collected
 
-The availability of these facets of research can enable reviewers and readers to better assess HCI research, facilitate industry to build upon and apply HCI research, and help HCI researchers to more efficiently use past research to make new advances.
+Making these facets of research accessible can enable reviewers and readers to better assess HCI research, facilitate industry to build upon and apply HCI research, and help HCI researchers to more efficiently use past research to make new advances.
 
 This post highlights some of the updates, but you can read the full [guide to a successful CHI submission](https://chi2020.acm.org/authors/papers/guide-to-a-successful-submission/) and [guide to reviewing](https://chi2020.acm.org/guide-to-reviewing-papers/) yourself.
 
@@ -58,7 +58,7 @@ New or updated text in the submission guide:
 
 ## Quantitative and qualitative methods
 
-Regardless of research methodology (quantitative or qualitative; empirical or engineering) CHI encourage transparent research practices. While the specific methods may differ in what materials and data are created, reviewers can expect all facets of the research to be transparently reported.
+Regardless of research methodology (quantitative or qualitative; empirical or engineering) CHI encourages transparent research practices. While the specific methods may differ in what materials and data are created, reviewers can expect all facets of the research to be transparently reported.
 
 New or updated text in the submission guide:
 
