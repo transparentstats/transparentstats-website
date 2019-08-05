@@ -1,0 +1,81 @@
+---
+title: Updates to the CHI Submission and Reviewing Guides Promote Open Research Practices
+author: Steve Haroz
+date: '2019-08-01'
+slug: updates-to-chi-submission-and-reviewing-guides
+categories: []
+tags: [chi]
+---
+
+Over the past year, members of [Transparent Statistics in HCI](https://transparentstatistics.org/) have worked with people across various disciplines of the HCI community and chairs of the conference (full contributor list below) to update the CHI guides for a successful submission and for reviewing. These new instructions aim to increase the transparency and openness of several facets of research, including:
+
+* decisions performed
+* materials created or used
+* data collected
+
+Making these facets of research accessible can enable reviewers and readers to better assess HCI research, facilitate industry to build upon and apply HCI research, and help HCI researchers to more efficiently use past research to make new advances.
+
+This post highlights some of the updates, but you can read the full [guide to a successful CHI submission](https://chi2020.acm.org/authors/papers/guide-to-a-successful-submission/) and [guide to reviewing](https://chi2020.acm.org/guide-to-reviewing-papers/) yourself.
+
+
+## Transparency
+
+To ensure that research is clearly and accurately communicated, every facet of CHI research is expected to be presented as transparently as possible. If reviewers have serious questions about what was done or how decisions were made, a paper’s contribution may be called into question. Authors can avoid these concerns by describing all methods and analyses along with any warranted precision and uncertainty.
+
+New or updated text in the reviewing guide:
+
+> Lack of transparency in the way research results are reported can be a ground to doubt the contribution. See the “Transparency” section in “Guide to a Successful Submission” for a discussion of transparency in different contribution types.
+
+New or updated text in the submission guide:
+
+> CHI papers should strive for research transparency regardless of the contribution type and methodology. Different contribution types, (e.g. technical contributions, quantitative studies, and qualitative studies) use different criteria for assessing transparency.  
+> […]  
+> **Research transparency is of utmost importance in a CHI paper. It allows reviewers to understand and assess submitted work thoroughly, and it allows members of the research community to understand, analyze, and build upon the work in published CHI papers. As such transparency is taken into account very seriously in the review process.**
+
+
+## Replicability
+
+To enable readers to scrutinize and extend CHI research, it is important that CHI papers that might be replicated or reproduced include sufficient information to do so. 
+
+New or updated text in the reviewing guide:
+
+> For future replications to be possible, however, submitted work must include sufficient information. Efforts to include complete, well-organized supplementary material facilitating replication, such as software, analysis code and data, should be rewarded.
+
+New or updated text in the submission guide:
+
+> While some independent researchers may have difficulty fully replicating your work — e.g., if the work requires access to unique user populations or rare or expensive hardware — an independent researcher who has access to these resources should ideally be able to reproduce your work.
+
+
+## Sharing
+
+To facilitate transparency and replicability, reviewers may expect that all materials created for this research (such as experiment code, stimuli, questionnaires, system code, and example datasets), all raw data measured, and all analysis scripts are shared. These materials are most reliably shared in a free publicly accessible registry such as the [Open Science Framework](https://osf.io) with a URL in the paper. Instructions for including data and materials in an anonymous submission are [here](http://steveharoz.com/blog/2018/sharing-data-and-materials-for-anonymous-submission/). If any of these materials cannot be shared (e.g., due to privacy concerns or practical issues of sharing very large datasets), reviewers may expect authors to share what they can (e.g., aggregated data) and explain why the rest cannot be shared in the paper.
+
+New or updated text in the submission guide:
+
+
+> **Sharing research material:** While the paper should provide as much information as possible to enable verification, reproduction, and replication, some details such as source code, analysis code, detailed hardware specifications, interview protocols, and collected data may not be shareable within the paper itself. Reviewers welcome and even expect all such material to be available. These resources are most reliably shared by posting to a publicly available open-access repository with a persistent identifier (e.g., a registration on the [Open Science Framework](https://osf.io), an open-access university repository, or an independent repository listed on [www.re3data.org](http://www.re3data.org)). Note that the [ACM policy](https://www.acm.org/publications/policies/artifact-review-badging) does not limit the use of specific repositories for the purpose of archiving supplementary materials, and that some repositories, including the Open Science Framework, allow anonymous posting of materials for reviewers. In some situations, you may not be able to share material such as sensitive data or proprietary code. In these cases, we advise you to share as much as possible and explicitly state in your paper why the rest cannot be shared. For example, while code for novel algorithms or designs may be protected by intellectual property, code for analyzing study data rarely requires protection, and access to this analysis code can be crucial for assessing the validity of your study's conclusions. While we don't expect you to share sensitive data or proprietary code, we encourage you to share as much non-sensitive and non-proprietary code as possible to help reviewers scrutinize, replicate and reproduce your results. This will increase the chances of your paper getting accepted.
+
+
+## Quantitative and qualitative methods
+
+Regardless of research methodology (quantitative or qualitative; empirical or engineering) CHI encourages transparent research practices. While the specific methods may differ in what materials and data are created, reviewers can expect all facets of the research to be transparently reported.
+
+New or updated text in the submission guide:
+
+> **Contributions that are technology-oriented** (e.g., a new technique or algorithm) and contributions that are quantitative studies (i.e., experiments with statistically analyzed results) are expected to be verifiable, reproducible (e.g., others should be able to rerun the interactive system or rerun the analysis code with the original data) and replicable (e.g., others should be able to independently recreate the interactive system or rerun the same experiment with different participants). Papers with these contributions should include enough detail for an independent researcher or practitioner to (1) independently evaluate the correctness, validity, and reliability of your software and/or analyses and (2) reproduce and replicate both core technology and experimental methods.
+
+> **Contributions that follow a qualitative research approach** (i.e., which most of the time incorporate researchers' subjective interpretation as part of the method) should be transparent about the various decisions made, their underlying rationales, and the procedures followed in the design of the research study and reporting of findings. This should include clear explanations of and justifications for the theoretical or conceptual basis for the study, choice of methods employed in every stage of the study, participant-selection process, considerations of ethical issues, and procedures followed for data collection and analysis. Researchers should also describe their considerations of the ethical concerns in the study, such as those pertaining to participant anonymity, privacy, and consent, their roles in the study, and data gathering and use. In cases where necessary prior permissions have been obtained to disclose any of the collected data (e.g., observation notes and interview transcripts) and documented researcher notes, making these data available would be welcome additions to the contributions.
+
+> The reporting of qualitative research findings should strive to show the “big picture” while also sufficiently contextualizing individual findings. The authors should make explicit how the themes were identified or constructed from the data, and whether each conclusion was drawn from outstanding instances or general trend among participants. They should also articulate any assumptions, preconceptions, or potential biases of the researchers. Communicating the research process in sufficient detail will enable reviewers to assess the rigor of the studies and empower others researchers to adopt the approaches, extend the work, and transfer the findings to other similar settings.
+
+
+## Contributors to these new updates
+
+_In alphabetical order_: Pernille Bjørn, Fanny Chevalier, Pierre Dragicevic, Shion Guha, Steve Haroz, Helen Ai He, Elaine M. Huang, Matthew Kay, Ulrik Lyngs, Joanna McGrenere, Christian Remy, Poorna Talkad Sukumar, Chat Wacharamanotham
+
+I’d particularly like to acknowledge that Chat’s hard work was one of the driving forces behind this initiative.
+
+
+## (Bonus) If your paper reports statistics
+
+Members of Transparent Statistics in HCI have been working on a [guide for reporting statistics](https://transparentstats.github.io/guidelines/). The first two chapters – [guiding principles](https://transparentstats.github.io/guidelines/principles.html) and [effect size](https://transparentstats.github.io/guidelines/effectsize.html) – are widely applicable regardless of which statistical methods you use. [We actively seek contributors, comments, and unaddressed questions](https://github.com/transparentstats/guidelines/wiki/Contributing-to-the-Guidelines)!
