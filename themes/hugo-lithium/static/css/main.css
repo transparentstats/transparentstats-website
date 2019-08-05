@@ -368,12 +368,13 @@ code {
 }
 
 
-/* bring quotes coser to previous paragraph */
-blockquote {
-  margin-block-start: -1em;
+/* spatially group quotes with preceding paragraph and add color highlight */
+blockquote { 
+  margin-block-start: -15px;
+  color: hsla(208, 25%, 35%, 1); /* same hue as logo but darker and desaturated*/
 }
-
-/* bring bullets closer to previous paragraph */
+/* spatially group bullets with the preceding paragraph and not the following paragraph */
 ul, ol { 
-  margin-top: -1em;
+  margin-block-start: -19px;
+  margin-bottom: 25px;
 }
