@@ -370,11 +370,11 @@ code {
 
 /* spatially group quotes with preceding paragraph and add color highlight */
 blockquote { 
-  margin-block-start: -15px;
-  color: hsla(208, 25%, 35%, 1); /* same hue as logo but darker and desaturated*/
+  margin-block-start: -12.5px;
+  color: hsla(208, 25%, 35%, 1); /* same hue as logo but darker and desaturated */
 }
 /* spatially group bullets with the preceding paragraph and not the following paragraph */
 ul, ol { 
-  margin-block-start: -19px;
+  margin-block-start: -12.5px;
   margin-bottom: 25px;
 }
