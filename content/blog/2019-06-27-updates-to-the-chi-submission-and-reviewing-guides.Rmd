@@ -4,7 +4,7 @@ author: Steve Haroz
 date: '2019-08-01'
 slug: updates-to-chi-submission-and-reviewing-guides
 categories: []
-tags: [chi]
+tags: [chi, chi_guides]
 ---
 
 Over the past year, members of [Transparent Statistics in HCI](https://transparentstatistics.org/) have worked with people across various disciplines of the HCI community and chairs of the conference (full contributor list below) to update the CHI guides for a successful submission and for reviewing. These new instructions aim to increase the transparency and openness of several facets of research, including:
