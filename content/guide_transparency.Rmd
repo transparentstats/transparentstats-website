@@ -1,11 +1,11 @@
 ---
-title: "Proposal for amending CHI guide to authors"
+title: "Proposal for amending CHI guides for authors and reviewers"
 date: "2019-08-28"
 ---
 
-The text below is a community-led effort to improve the [Guide to a Successful Submission](http://chi2019.acm.org/authors/papers/guide-to-a-successful-submission/) on the CHI conference website. 
-We are currently working with the CHI Steering Committee to facilitate further revision and adoption of this proposal.
-We will periodically update the progress on [our blog](/tags/chi_guides).
+> The text below is a community-led effort to improve the [Guide to a Successful Submission](http://chi2019.acm.org/authors/papers/guide-to-a-successful-submission/) on the CHI conference website. 
+> We are currently working with the CHI Steering Committee to facilitate further revision and adoption of this proposal.
+> We will periodically update the progress on [our blog](/tags/chi_guides).
 
 # Transparency
 
