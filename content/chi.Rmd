@@ -1,0 +1,15 @@
+---
+title: "Events at CHI"
+---
+
+Events organized by Transparent Statistics in HCI at the ACM SigCHI conference
+
+[CHI 2020 - Relevant papers](../2020/07/28/chi-2020)
+
+[CHI 2019 - Meetup and relevant papers](../chi2019)
+
+[CHI 2018 - Special Interest Group](../chi2018)
+
+[CHI 2017 - Workshop](../chi2017)
+
+[CHI 2016 - Special Interest Group](../chi2016)

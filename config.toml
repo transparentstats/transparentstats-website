@@ -10,23 +10,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     blog = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Guidelines"
-    url = "https://transparentstats.github.io/guidelines/"
-[[menu.main]]
     name = "Blog"
     url = "https://transparenthci.medium.com/"
 [[menu.main]]
-    name = "CHI '19"
-    url = "/chi2019"
+    name = "Events at CHI"
+    url = "/chi"
 [[menu.main]]
-    name = "CHI '18"
-    url = "/chi2018"
+    name = "Events at VIS"
+    url = "/vis"
 [[menu.main]]
-    name = "CHI '17"
-    url = "/chi2017"
-[[menu.main]]
-    name = "CHI '16"
-    url = "/chi2016"
+    name = "Guidelines"
+    url = "https://transparentstats.github.io/guidelines/"
 [[menu.main]]
     name = "Elections"
     url = "/Election2020"

@@ -1,0 +1,13 @@
+---
+title: "Events at VIS"
+---
+
+Events related to research transparency at the IEEE VIS conference:
+
+[VIS 2020 - Tutorial](https://osf.io/2g8ad/)
+
+[VIS 2019 - Meetup](http://ieeevis.org/year/2019/info/meetups#openness)
+
+[VIS 2018 - many papers and panels at the BELIV workshop](https://beliv-workshop.github.io/2018/schedule.html)
+
+[VIS 2016 - panel](http://steveharoz.com/publications/vis2016-panel/)
