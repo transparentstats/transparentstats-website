@@ -27,6 +27,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "CHI '16"
     url = "/chi2016"
+[[menu.main]]
+    name = "Elections"
+    url = "/Election2020"
 
 [params]
     description = "Transparent Statistics in Human-Computer Interaction Working Group"
