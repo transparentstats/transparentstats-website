@@ -1,4 +1,4 @@
-baseurl = "http://transparentstatistics.org/"
+relativeURLs = true
 languageCode = "en-us"
 title = "Transparent Statistics in HCI"
 theme = "hugo-lithium"
