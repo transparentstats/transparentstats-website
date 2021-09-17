@@ -14,7 +14,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://transparentstats.github.io/guidelines/"
 [[menu.main]]
     name = "Blog"
-    url = "/blog"
+    url = "https://transparenthci.medium.com/"
 [[menu.main]]
     name = "CHI '19"
     url = "/chi2019"
