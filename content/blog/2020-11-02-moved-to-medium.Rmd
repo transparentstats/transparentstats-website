@@ -1,0 +1,12 @@
+---
+title: We've moved to Medium
+author: Steve Haroz
+date: '2020-11-02'
+slug: moved-to-medium
+categories: []
+tags: []
+---
+
+Future blog posts will appear at https://transparenthci.medium.com/
+
+We've copied past blog posts there as well.

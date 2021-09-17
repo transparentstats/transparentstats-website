@@ -1,0 +1,55 @@
+---
+title: "Statements for the 2021 VIS Committee Elections"
+date: "2016-01-01"
+---
+
+A new member is being elected to the VIS Steering Committee (VSC) and the VIS Executive Committee, which provides scientific and organizational oversight of the IEEE VIS conference and reviewing process.
+
+Following [the example set by Society for the Improvement of Psychological Science](https://improvingpsych.org/mission/election-statements/), members of the Transparent Statistics in HCI asked 2021 VSC candidates to publicly answer a question about research transparency and open practices: 
+
+> **If elected to the IEEE VIS Steering Committee, what (if any) policies would you promote to improve research in visualization, and how would you support open science practices and research transparency at IEEE VIS and in the field of visualization more broadly?**
+
+Because different areas within visualization vary considerably in existing norms and practices, and because the specific issues that are most salient may vary by sub-discipline, the question is very broad and open-ended. The email was sent on September 13th, 2021 and signed by Steve Haroz, Fanny Chevalier, Lewis Chuang, Pierre Dragicevic, Shion Guha, and Matthew Kay.
+
+Statements will be posted as they are received.
+
+# VIS Steering Committee
+
+### [Chris Johnson](http://ieeevis.org/year/2021/info/vsc-candidates#chris-johnson)
+
+*Statement not yet received*
+
+### [Kwan-Liu Ma](http://ieeevis.org/year/2021/info/vsc-candidates#kwan-li-uma)
+
+*Statement not yet received*
+
+### [Bernhard Preim](http://ieeevis.org/year/2021/info/vsc-candidates#bernhard-preim)
+
+I consider open science, e.g., open source software and open data, as essential primarily to foster reproducibility. The fact that many scientific results cannot be reproduced, is a severe problem for science in general. Thus, I consider the Graphics Replicability Stamp Initiative as an essential step in this direction and would support further initiatives to strengthen transparency. However, I am also aware of differences in the subcommunities. While open source software and public databases play an essential role in BioVis and BioInformatics, in medical applications, it is still rare that data can be made publicly available. Without example datasets, even an open source software is of limitied value. Thus, I would not favor that open source software is mandatory for publications at Vis.
+
+### [Anna Vilanova](http://ieeevis.org/year/2021/info/vsc-candidates#anna-vilanova)
+
+*Statement not yet received*
+
+# VIS Executive Committee
+
+### [Rita Borgo](http://ieeevis.org/year/2021/info/vec-candidates#rita-borgo)
+
+*Statement not yet received*
+
+### [Stefan Bruckner](http://ieeevis.org/year/2021/info/vec-candidates#stefan-bruckner)
+
+*Statement not yet received*
+
+### [Michael Correll](http://ieeevis.org/year/2021/info/vec-candidates#michael-correll)
+
+*Statement not yet received.*
+
+### [Helwig Hauser](http://ieeevis.org/year/2021/info/vec-candidates#helwig-hauser)
+
+*Statement not yet received.*
+
+### [Filip Sadlo](http://ieeevis.org/year/2021/info/vec-candidates#filip-sadlo)
+
+*Statement not yet received.*\
+\
