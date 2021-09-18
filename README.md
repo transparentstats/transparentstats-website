@@ -19,6 +19,22 @@ The directories of interest are probably:
 - [public/](public/): The directory output directory, into which the contents of `content/` (after being compiled)
   and the contents of `static/` are copited when the website is built. **Do not edit directly**.
 
+## Add a page
+
+1. Clone this repositotry locally.
+2. Open the Rproj project in RStudio. You may need to run `install.packages('blogdown')` the first time.
+3. Add a new Rmd file to `content/` or `content/blog/`
+4. For a blog post, make sure to copy the date format in the filename.
+5. Copy the header content from one of the existing files, and add your content.
+6. Save. And Click the "Knit" above the editor.
+7. Click `Build Website` in the `Build` tab on the right.
+8. Commit the changes to git and push to github.
+9. You may need to do a PR and merge if you've forked the repo.
+
+## Change the header links
+
+See `config.toml`
+
 ## Deploying
 
 The deployed version of the website is built automatically by Netlify based on the `master` branch of this repository on Github. Therefore, please do not push things to master that you haven't tested :).
