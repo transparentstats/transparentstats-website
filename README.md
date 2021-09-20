@@ -21,7 +21,7 @@ The directories of interest are probably:
 
 ## Add a page
 
-1. Clone this repositotry locally.
+1. Clone this repository locally.
 2. Open the Rproj project in RStudio. You may need to run `install.packages('blogdown')` the first time.
 3. Add a new Rmd file to `content/` or `content/blog/`
 4. For a blog post, make sure to copy the date format in the filename.
