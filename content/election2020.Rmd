@@ -37,7 +37,24 @@ I consider open science, e.g., open source software and open data, as essential 
 
 ### [Rita Borgo](http://ieeevis.org/year/2021/info/vec-candidates#rita-borgo)
 
-*Statement not yet received (request sent Sept. 17)*
+OpenScience, OpenAccess, Opendata  are all fundamentals for the progress of scientific research and knowledge, and milestones we really should hope to achieve. We see striking examples of when this is not the case and patents are placed ahead of people’s wellbeing.
+
+So, am I in favour of OpenScience? Yes, I am as I believe all of us are.
+
+Have I been following policies development? To the extent of my abilities, I have.
+
+I am familiar with the Open Data Institute (ODI) initiatives, the Organisation for Economic Co-operation and Development (OECD) work on Open Government Data (OGD) policies and the Center for Open Science (COS).
+I have also followed initiatives emerging in our own communities like Harvard Dataverse, and contributed to my own local community with work on the London Data Store.
+
+Nevertheless I have also found myself on both end of this challenge, chasing after access to data in support of my students’ work as well as my students’ research under threat of not being published because we were not in a position to grant access to the data.
+
+This I do not wish upon anyone.
+
+It is clear to me that the discourse is deeply complex, there are domain constraints, capabilities constraints, resources constraints, privacy constraints, and most of all national constraints with policies differing considerably from one country to the other (as an easy example EU GDPR now a different entity from UK GDPR).
+As a community we have a wealth of research diversity which I wish to see thriving. This will mean looking into what are the opportunities in support of its development, what are the needs, and, if we are to develop policies, which ones can bring a concrete benefit, not just to the community as an abstract entity but to the individual researcher.
+I strongly believe in incentives not constraints, in initiatives  that sustain a researcher’s work, and would welcome tools and ideas that could support anyone wishing to work towards open science but do not have the resources to do so. 
+This is also embedded in something very important to me: respecting my colleagues’ freedom of choice.  
+We are already under enough pressure let us use our energy to support each other work and successes.  
 
 ### [Stefan Bruckner](http://ieeevis.org/year/2021/info/vec-candidates#stefan-bruckner)
 
