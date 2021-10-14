@@ -8,7 +8,7 @@ Transparent statistics is a philosophy of statistical reporting whose purpose is
 
 We organize events at the [ACM CHI](chi) and [IEEE VIS](vis) conferences related to research transparency.
 
-To learn more about transparent statistics, check out the **[Transparent Statistics Guidelines](https://transparentstats.github.io/guidelines/)**
+To learn about transparent statistics, check out the **[Transparent Statistics Guidelines](https://transparentstats.github.io/guidelines/)**
 
 ### Join our Slack
 The best way to get involved is via slack. [Email us](core@transparentstatistics.org), and we'll send you an invite.  
