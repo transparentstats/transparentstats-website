@@ -1,6 +1,5 @@
 ---
 title: "Home"
-date: "2018-07-03"
 ---
 
 # Transparent Statistics in Human–Computer Interaction
@@ -11,6 +10,9 @@ We organize events at the [ACM CHI](chi) and [IEEE VIS](vis) conferences related
 
 To learn more about transparent statistics, check out the **[Transparent Statistics Guidelines](https://transparentstats.github.io/guidelines/)**
 
-**Join us!** The best way to get involved is to **join our Slack**---email <core@transparentstatistics.org> and we'll send you an invite. We also have a [mailing list](https://groups.google.com/d/forum/transparent-stats-hci) you can sign up for, but the Slack is more active.
+### Join our Slack
+The best way to get involved is via slack. [Email us](core@transparentstatistics.org), and we'll send you an invite.  
+We also have a [mailing list](https://groups.google.com/d/forum/transparent-stats-hci), but the Slack is more active.
 
-**Organizers:** Fanny Chevalier, Lewis Chuang, Pierre Dragicevic, Shion Guha, Steve Haroz, Matthew Kay, and Chat Wacharamanotham
+### Organizers
+Fanny Chevalier, Lewis Chuang, Pierre Dragicevic, Shion Guha, Steve Haroz, Matthew Kay, and Chat Wacharamanotham
