@@ -3,9 +3,9 @@ title: "Proposal for amending CHI guides for authors and reviewers"
 date: "2019-08-28"
 ---
 
-> The text below is a community-led effort to improve the [Guide to a Successful Submission](http://chi2019.acm.org/authors/papers/guide-to-a-successful-submission/) on the CHI conference website. 
-> We are currently working with the CHI Steering Committee to facilitate further revision and adoption of this proposal.
-> We will periodically update the progress on [our blog](/tags/chi_guides).
+> The text below was a community-led effort to improve the [Guide to a Successful Submission](http://chi2019.acm.org/authors/papers/guide-to-a-successful-submission/) on the CHI conference website. 
+> The proposal was accepted and integrated into the submission and reviewing guide.
+> The proposed changes are archived at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5566172.svg)](https://doi.org/10.5281/zenodo.5566172)
 
 # Transparency
 
