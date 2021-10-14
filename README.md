@@ -44,7 +44,8 @@ The directories of interest are probably:
 
 ## Change the header links
 
-See `config.toml`
+See `config.toml`  
+For further customization, see `themes/hugo-lithium/layouts/partials/nav.html`
 
 ## Deploying
 
