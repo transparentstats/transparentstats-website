@@ -13,6 +13,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Blog"
     url = "https://transparenthci.medium.com/"
 [[menu.main]]
+    name = "Policy efforts"
+    url = "/policy"
+[[menu.main]]
     name = "Events at CHI"
     url = "/chi"
 [[menu.main]]
@@ -21,9 +24,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Guidelines"
     url = "https://transparentstats.github.io/guidelines/"
-[[menu.main]]
-    name = "Elections"
-    url = "/Election2020"
 
 [params]
     description = "Transparent Statistics in Human-Computer Interaction Working Group"
