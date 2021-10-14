@@ -2,6 +2,8 @@
 title: "Home"
 ---
 
+<style> h1 {font-size: 1.3em; margin-bottom: 1em;} </style>
+
 # Transparent Statistics in Human–Computer Interaction
 
 Transparent statistics is a philosophy of statistical reporting whose purpose is scientific advancement rather than persuasion. We are interested in moving the field of <abbr title="Human-Computer Interaction">HCI</abbr> and related fields like visualization towards clearer and more reliable ways of writing about experiments.
