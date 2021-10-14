@@ -19,6 +19,17 @@ The directories of interest are probably:
 - [public/](public/): The directory output directory, into which the contents of `content/` (after being compiled)
   and the contents of `static/` are copited when the website is built. **Do not edit directly**.
 
+
+## Edit a page
+1. Clone this repository locally.
+2. Open the Rproj project in RStudio. You may need to run `install.packages('blogdown')` the first time.
+3. Open the Rmd file in `content/` or `content/blog/`
+4. Save. And Click the "Knit" above the editor.
+5. Click `Build Website` in the `Build` tab on the right.
+6. Commit the changes to git and push to github.
+7. You may need to do a PR and merge if you've forked the repo.
+
+
 ## Add a page
 
 1. Clone this repository locally.
